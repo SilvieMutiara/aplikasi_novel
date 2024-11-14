@@ -53,9 +53,9 @@ import com.example.myapplication.pages.Favorite
 fun MainScreen(modifier: Modifier = Modifier){
     val navController = rememberNavController()
     val navItemList = listOf(
-        NavItem("Home", R.drawable.home, "books"),
-        NavItem("Favorite", R.drawable.agenda, "favorite"),
-        NavItem("About", R.drawable.user , "about"),
+        NavItem("Beranda", R.drawable.home, "books"),
+        NavItem("Favorit", R.drawable.agenda, "favorite"),
+        NavItem("Profil", R.drawable.user , "about"),
 
         )
 
